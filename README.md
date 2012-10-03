@@ -8,8 +8,8 @@ WordPress lacked any sort of Class-based structure in templates and struggled wi
 The general structure of WP themes using this is as follows:
 
 my-theme/
-  models/
-    my-first-model.php
-    my-second-model.php
-    WPObject.php
-  functions.php --> include models/* in here
+  - models/
+    - my-first-model.php
+    - my-second-model.php
+    - WPObject.php
+  - functions.php --> include models/* in here
