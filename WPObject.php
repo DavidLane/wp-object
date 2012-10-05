@@ -7,7 +7,7 @@
 	* Maybe this needs to be an abstract/interface class?
 	*/
 
-	class WPObject {
+	abstract class WPObject {
 		protected $_post; // This is the actual WP Post object
 		
 		public function __construct($post_object) {
