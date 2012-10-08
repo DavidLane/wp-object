@@ -29,4 +29,8 @@
 		public function __set($key, $value) { // Setter override
 			return $this->getPostObject()->$key = $value; // Same as above, only setting!
 		}
+
+		public function delete() {
+		}
+
 	}

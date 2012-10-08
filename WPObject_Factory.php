@@ -50,6 +50,6 @@
 
 		public function findByID($id) {
 			return $this->findOneBy(array("id" => $id));
-		}		
+		}
 	}
 ?>
